@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student-Registration</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Student-Registration</h1>
+    </div>
+    <div class="container">
+        <form action="/post" method="post">
+            <label for="regd_no">Registration_Number</label>
+            <input type="text" name="regd_no" id="regd_no" placeholder="Enter Your Registration Number">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name"> 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Eg:abc1234@gmail.com">
+            <label for="department">Department</label>
+            <select name="department" id="department">
+                <option value="SELECT">--SELECT--</option>
+                <option value="CSE">CSE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MTECH">MTECH</option>
+                <option value="BTECH">BTECH</option>
+                <option value="BBA">BBA</option>
+                <option value="MBA">MBA</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="BA">BA</option>
+                <option value="MA">MA</option>
+                <option value="BSC">BSC</option>
+                <option value="MSC">MSC</option>
+            </select>
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Eg:1234-56-7890">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" placeholder="Enter Your Address"></textarea>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+<script src="server.js"></script>    
+</body>
+</html>

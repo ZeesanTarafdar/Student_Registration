@@ -1,0 +1,147 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.heading{
+    color: #fff;
+    margin-left: 35%;
+}
+.container{
+    padding: 10px;
+    max-height: 80%;
+    max-width: 500px;
+    margin-left: 27%;
+    margin-top: 25px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+form{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    gap: 10px;
+}
+form label{
+    font-size: 20px;
+}
+form input{
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(207, 92, 92);
+    font-size: 16px;
+
+}
+form select{
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(207, 92, 92);
+}
+form button{
+    padding: 8px;
+    background-color: rgb(15, 197, 15);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#address{
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 484px auto;
+    height: 100px;
+    border: 2px solid rgb(207, 92, 92);
+
+}
+
+#submit{
+    height: 48px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 190px ;
+    border: 2px solid rgb(248, 248, 248);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .heading{
+        color: #fff;
+        font-size: 10px;
+        margin-left: 20%;
+    }
+    .container{
+        padding: 10px;
+        max-height: 80%;
+        max-width: 500px;
+        margin-left: 0%;
+        margin-top: 25px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+    form{
+        display: flex;
+        height: 50%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    form label{
+        font-size: 20px;
+    }
+    form input{
+        padding: 8px;
+        border-radius: 10px;
+        border: 2px solid rgb(207, 92, 92);
+        font-size: 16px;
+    
+    }
+    form select{
+        padding: 8px;
+        border-radius: 10px;
+        border: 2px solid rgb(207, 92, 92);
+    }
+    form button{
+        padding: 8px;
+        background-color: rgb(15, 197, 15);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    #address{
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        width: 484px auto;
+        height: 100px;
+        border: 2px solid rgb(207, 92, 92);
+    
+    }
+    
+    #submit{
+        height: 48px;
+        width: 100px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 110px ;
+        border: 2px solid rgb(248, 248, 248);
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #fff;
+        color: black;
+        cursor: pointer;
+    }
+  }
+  
