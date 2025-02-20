@@ -44,14 +44,15 @@ app.post('/post', async (req, res) => {
         address,
     });
     if(!regd_no || !name || !email || !department || !phone || !address){
-        return res.send(`Please Back to fill all the fields❌`);
+        return res.send(`<p style="font-size: 69px;">Please Back to fill all the fields❌</p>`);
     }
  await user.save();
  res.send(`Form Submitted Successfully✅`);
+
 });
 
 app.listen(port, () => {
-    console.log(`Server is running ✅ on port ${port}`);
+    console.log(`<p style="font-size: 69px;>Server is running ✅ on port ${port}</p>`);
 });
 
 // 
