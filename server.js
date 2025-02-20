@@ -47,12 +47,12 @@ app.post('/post', async (req, res) => {
         return res.send(`<p style="font-size: 69px;">Please Back to fill all the fields❌</p>`);
     }
  await user.save();
- res.send(`Form Submitted Successfully✅`);
+ res.send(`<p style="font-size: 69px;">Form Submitted Successfully✅</p>`);
 
 });
 
 app.listen(port, () => {
-    console.log(`<p style="font-size: 69px;>Server is running ✅ on port ${port}</p>`);
+    console.log('Server is running ✅ on port ${port}');
 });
 
 // 
